@@ -20,6 +20,10 @@ $(function() {
 
 		var $navArrows = $('#nav-arrows'), $nav = $('#nav-dots > span'), slitslider = $(
 				'#slider').slitslider({
+			speed : 540,
+			interval : 4500,
+			autoplay : true,
+			keyboard : false,
 			onBeforeChange : function(slide, pos) {
 
 				$nav.removeClass('nav-dot-current');
@@ -38,6 +42,8 @@ $(function() {
 			$navArrows.children(':last').on('click', function() {
 
 				slitslider.next();
+				slitslider.play();
+
 				return false;
 
 			});
@@ -45,6 +51,8 @@ $(function() {
 			$navArrows.children(':first').on('click', function() {
 
 				slitslider.previous();
+				slitslider.play();
+
 				return false;
 
 			});
@@ -198,6 +206,20 @@ $(document)
 
 				});
 
+/* ========================================================================= */
+/*
+ * Flipster Box /*
+ * =========================================================================
+ */
+var carousel = $("#my-flipster").flipster({
+	style : 'carousel',
+	spacing : -0.4,
+	fadeIn : 400,
+	autoplay : false, // 3000
+	nav : true,
+	buttons : false,
+	scrollwheel : false
+});
 
 var wow = new WOW({
 	offset : 75, // distance to the element when triggering the animation

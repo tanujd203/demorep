@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 main>section {
-	padding: 70px 0;
+	padding: 30px 0;
 }
 
 .btn {
@@ -261,6 +261,8 @@ box-shadow
 
 
 
+
+
 :
 
 
@@ -271,7 +273,9 @@ box-shadow
 
 
 
+
  
+
 
 
 
@@ -291,7 +295,9 @@ inset
 
 
 
+
  
+
 
 
 
@@ -312,7 +318,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -333,7 +341,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -354,7 +364,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -365,6 +377,8 @@ px
 
 
 #2E2E2E
+
+
 
 
 
@@ -411,6 +425,8 @@ box-shadow
 
 
 
+
+
 :
 
 
@@ -421,7 +437,9 @@ box-shadow
 
 
 
+
  
+
 
 
 
@@ -441,7 +459,9 @@ inset
 
 
 
+
  
+
 
 
 
@@ -462,7 +482,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -483,7 +505,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -504,7 +528,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -515,6 +541,8 @@ px
 
 
 #2E2E2E
+
+
 
 
 
@@ -561,6 +589,8 @@ box-shadow
 
 
 
+
+
 :
 
 
@@ -571,7 +601,9 @@ box-shadow
 
 
 
+
  
+
 
 
 
@@ -591,7 +623,9 @@ inset
 
 
 
+
  
+
 
 
 
@@ -612,7 +646,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -633,7 +669,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -654,7 +692,9 @@ px
 
 
 
+
  
+
 
 
 
@@ -665,6 +705,8 @@ px
 
 
 #2E2E2E
+
+
 
 
 
@@ -1557,10 +1599,10 @@ div.backgroundbox4 {
 }
 
 div.transbox {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	background-color: #000000;
 	border: 1px solid black;
 	opacity: 0.75;

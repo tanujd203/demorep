@@ -213,8 +213,9 @@ $(document)
  */
 var carousel = $("#my-flipster").flipster({
 	style : 'carousel',
-	spacing : -0.4,
+	spacing : -0.6,
 	fadeIn : 400,
+	start : 1,
 	autoplay : false, // 3000
 	nav : true,
 	buttons : false,

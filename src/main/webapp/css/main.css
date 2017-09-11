@@ -1557,10 +1557,10 @@ div.backgroundbox4 {
 }
 
 div.transbox {
-	margin-left: 90px;
-	margin-right: 90px;
-	margin-top: 126px;
-	margin-bottom: 126px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 	background-color: #000000;
 	border: 1px solid black;
 	opacity: 0.75;
@@ -1569,6 +1569,7 @@ div.transbox {
 
 div.transbox p {
 	margin: 5%;
+	font-size: 13px;
 	font-weight: bold;
 	color: #ffffff;
 }

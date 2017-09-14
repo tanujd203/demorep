@@ -263,6 +263,12 @@ box-shadow
 
 
 
+
+
+
+
+
+
 :
 
 
@@ -274,7 +280,13 @@ box-shadow
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -296,7 +308,13 @@ inset
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -319,7 +337,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -342,7 +366,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -365,7 +395,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -377,6 +413,12 @@ px
 
 
 #2E2E2E
+
+
+
+
+
+
 
 
 
@@ -427,6 +469,12 @@ box-shadow
 
 
 
+
+
+
+
+
+
 :
 
 
@@ -438,7 +486,13 @@ box-shadow
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -460,7 +514,13 @@ inset
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -483,7 +543,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -506,7 +572,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -529,7 +601,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -541,6 +619,12 @@ px
 
 
 #2E2E2E
+
+
+
+
+
+
 
 
 
@@ -591,6 +675,12 @@ box-shadow
 
 
 
+
+
+
+
+
+
 :
 
 
@@ -602,7 +692,13 @@ box-shadow
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -624,7 +720,13 @@ inset
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -647,7 +749,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -670,7 +778,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -693,7 +807,13 @@ px
 
 
 
+
+
+
  
+
+
+
 
 
 
@@ -705,6 +825,12 @@ px
 
 
 #2E2E2E
+
+
+
+
+
+
 
 
 
@@ -1609,11 +1735,42 @@ div.transbox {
 	cursor: pointer;
 }
 
+div.transbox2 {
+	border: 1px solid transparent;
+	opacity: 0.85;
+	cursor: pointer;
+}
+
+div.transbox3 {
+	background-color: #000000;
+	border: 1px solid black;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
 div.transbox p {
 	margin: 5%;
 	font-size: 13px;
 	font-weight: bold;
 	color: #ffffff;
+}
+
+div.transbox2 p {
+	margin: 5%;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 1px 1px 6px #000000;
+}
+
+div.transbox3 p {
+    margin: 4%;
+    width: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 1px 1px 6px #000000;
 }
 
 /*============================================================ 

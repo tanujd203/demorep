@@ -113,7 +113,7 @@
 .flipster__nav__link::after {
 	content: '';
 	display: block;
-	background: #232221;
+	background: #009ee3; /* Background Color Edit */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -127,6 +127,7 @@
 .flipster__nav__item--current>.flipster__nav__link, .flipster__nav__link:hover,
 	.flipster__nav__link:focus {
 	color: #FFF;
+	text-shadow: 1px 1px -1px;
 }
 
 .flipster__nav__item--current>.flipster__nav__link::after,

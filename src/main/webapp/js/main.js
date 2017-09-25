@@ -131,7 +131,7 @@ $(document)
 					 */
 
 					// Slider Height
-					var slideHeight = $(window).height() / 1.5;
+					var slideHeight = $(window).height() / 1.8;
 
 					$('#home-slider, #slider, .sl-slider, .sl-content-wrapper')
 							.css('height', slideHeight);
